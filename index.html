@@ -7,10 +7,10 @@ layout: default
     {% for post in site.posts %}
       <li>
         <header class="post-header">
-        <aside class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</aside>
         <h2>
           <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <aside class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</aside>
         </header>
 
         <article class="post-content">
