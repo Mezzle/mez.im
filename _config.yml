@@ -3,7 +3,7 @@ title: mez.im
 email: contact@mez.im
 description: >
   Well, this is awkward.  I don't really have a description.
-  But I do have a bag of candy.  Would you like one?  No?
+  But I do have a bag of candy.<br />Would you like one?  No?
   Oh well, more for me then.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mez.im" # the base hostname & protocol for your site
