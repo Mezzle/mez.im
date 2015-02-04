@@ -1,10 +1,7 @@
----
----
-
 // ==UserScript==
 // @name         Remove Stormcraft Logo
-// @namespace    http://mez.im/userscripts/
-// @updateURL https://mez.im/userscripts/removestormcraftlogo.user.js
+// @namespace    https://mez.im/userscripts/
+// @updateURL    https://mez.im/userscripts/removestormcraftlogo.user.js
 // @version      0.1
 // @description  Removes the Stormcraft logo
 // @author       Martin Meredith <mez@mez.im>
