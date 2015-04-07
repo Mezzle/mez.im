@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hide Reddit Sidebar
 // @namespace    https://mez.im/
-// @version      0.1
+// @version      0.1.1
 // @description  Toggle on and off the reddit sidebad
 // @updateURL    https://mez.im/userscripts/hideredditsidebar.user.js
 // @author       You
@@ -10,7 +10,7 @@
 // @require      http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
 
-this.$ = jQuery.noConflict(true);
+$ = jQuery.noConflict(true);
 
 $('<span>').append(
     $('<a>').text('Toggle Sidebar')
