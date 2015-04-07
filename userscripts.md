@@ -1,6 +1,7 @@
 ---
 layout: page
 title: User Scripts
+globalnav: true
 permalink: /userscripts/
 ---
 

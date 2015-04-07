@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+globalnav: true
 permalink: /about/
 ---
 

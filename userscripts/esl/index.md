@@ -4,8 +4,6 @@ title: ESL User Scripts
 permalink: /userscripts/esl/
 ---
 
-## ESL User Scripts
-
 I made a bunch of userscripts while I was an ESL Admin.  They might be useful to others.
 
  * [Seed from Toolbox](/userscripts/esl/seedfromtoolbox.user.js)
