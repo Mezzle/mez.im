@@ -2,7 +2,7 @@
 // @name        Seed From toolbox
 // @namespace   https://mez.im/userscripts/
 // @updateURL   https://mez.im/userscripts/esl/seedfromtoolbox.user.js
-// @version     0.3.0
+// @version     0.3.1
 // @description Create button that will seed from toolbox
 // @match       http://www.esl.eu/eu/*/admin_contestants*
 // @require     http://code.jquery.com/jquery-2.1.3.min.js
@@ -11,7 +11,7 @@
 // @copyright   2014-2015, Martin Meredith
 // ==/UserScript==
 
-$ = jQuery.noConflict(true);
+this.$ = jQuery.noConflict(true);
 
 var toolbox_url = 'http://toolbox1.tedc.de/';
 

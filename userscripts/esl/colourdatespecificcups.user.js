@@ -2,7 +2,7 @@
 // @name        Colour Date specific Cups
 // @namespace   https://mez.im/userscripts/esl/
 // @updateURL   https://mez.im/userscripts/esl/colourdatespecificcups.user.js
-// @version     1.0
+// @version     1.0.1
 // @description Change colour of date specific cups in League joins
 // @match       http://www.esl.eu/*/admin_leaguejoins/*
 // @require     http://code.jquery.com/jquery-2.1.3.min.js
@@ -11,7 +11,7 @@
 // @copyright   2013-2015, Martin Meredith
 // ==/UserScript==
 
-$ = jQuery.noConflict(true);
+this.$ = jQuery.noConflict(true);
 
 var links = $($('#main_content').find('.TextS')[0]).find('a');
 

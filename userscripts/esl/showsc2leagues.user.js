@@ -2,7 +2,7 @@
 // @name        Show Starcraft II Leagues
 // @namespace   https://mez.im/userscripts/
 // @updateURL   https://mez.im/userscripts/esl/showsc2leagues.user.js
-// @version     1.0
+// @version     1.0.1
 // @description Show Leagues against SC2 Leaguejoins.
 // @match       http://www.esl.eu/eu/sc2/*/admin_leaguejoins*
 // @require     http://code.jquery.com/jquery-2.1.3.min.js
@@ -11,7 +11,7 @@
 // @copyright   2013-2015, Martin Meredith
 // ==/UserScript==
 
-$ = jQuery.noConflict(true);
+this.$ = jQuery.noConflict(true);
 
 $('a.TextVSblack').each(function() {
     if ($(this).text() == 'B.net') {
