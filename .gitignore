@@ -2,3 +2,5 @@
 _site
 .ruby-version
 .sass-cache/*
+.bundle
+vendor
